@@ -19,3 +19,10 @@ Docker Container -
 Docker Image vs. Docker Container -
     - The key difference between a docker image and a docker container is that a docker image is a template that defines how a docker container will be realized. A docker container is a runtime instance of a docker image.
 
+
+Demo:
+Dockerfile - contains a set of Docker instructions that will help create a Docker Image
+
+Docker Image - A set of instructions that contains all the information that a container needs to be built exactly the same way across any system.
+
+Docker Container - The virtual operating system. 
