@@ -1,0 +1,27 @@
+Class components
+
+Objectives:
+
+Write a class component [x]
+Manage state []
+Pass props down to child component []
+
+What is a component?
+- a component is a piece of code that represents a reusable part of your user interface (UI)
+- components allow you to split up your code into smaller independent pieces that can be easily reusable to recreate more complex UIs
+
+-Functional components - simple pure functions that take in props and return a react element
+-Class components - more powerful and flexible allowing you to use additional features such as state and lifecycle methods.
+
+What is a class component?
+- Class components are defined using JS classes and they extend the parent React.Component class.
+
+
+Exercise:
+
+- Create another child component (class)
+- Pass state down to the new child component 
+- use the passed down state in the child component
+
+- Add the child component to App(parent) <- add some state to app
+ 
