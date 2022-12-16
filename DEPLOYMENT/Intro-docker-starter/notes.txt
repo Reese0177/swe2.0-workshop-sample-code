@@ -1,0 +1,21 @@
+INTRO TO DOCKER
+
+Objectives
+- What is docker trying to solve?
+    - Docker is trying make the development experience seamless across different development enviornments
+
+- What is docker?
+    - Docker helps us contain a development enviornment and to be able to share it across different systems.
+
+- What are docker images and containers?
+
+Docker Image - 
+    - Instructions telling docker how to create the container. Instructions include what build, location, port, commands, packages that should be installed etc. A Docker image basically is a template that defines how an image will be realized at runtime. Think of this as a recipe.
+
+Docker Container - 
+    - The virtual operating system itself. How it will operate will depend on the docker image.
+
+
+Docker Image vs. Docker Container -
+    - The key difference between a docker image and a docker container is that a docker image is a template that defines how a docker container will be realized. A docker container is a runtime instance of a docker image.
+
