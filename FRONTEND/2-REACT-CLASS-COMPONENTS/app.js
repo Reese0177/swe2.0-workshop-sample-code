@@ -1,15 +1,12 @@
 import React from 'react'
 
-class App extends React.Component {
-    constructor() {
-        super()
-    }
-
-    render() {
-        return(
-            <h1>TEACH ME REACT COMPONENTS PLEASE</h1>
-        )
-    }
-}
+//TOP OF THE COMPONENT TREE
+const App = () => {
+    return(
+        <>
+            <h1>Teach me about Class Components</h1>
+        </>
+    )
+} 
 
 export default App
