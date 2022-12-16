@@ -21,8 +21,25 @@ Docker Image vs. Docker Container -
 
 
 Demo:
-Dockerfile - contains a set of Docker instructions that will help create a Docker Image
 
-Docker Image - A set of instructions that contains all the information that a container needs to be built exactly the same way across any system.
+Dockerfile - contains a set of Docker instructions that will help create a Docker Image [x]
+
+
+FROM - will provide the base image 
+
+COPY - bundle your app's source inside the docker image 
+
+
+WORKDIR - changes the working directory
+
+RUN - command that triggers when we build the docker image. 
+
+CMD - command triggers any launches when you run the image in the container
+
+Docker Image - A set of instructions that contains all the information that a container needs to be built exactly the same way across any system. [x]
+
+Docker build . -t dockerpractice
 
 Docker Container - The virtual operating system. 
+
+docker run -p 3000:3000 dockerpractice
