@@ -43,3 +43,14 @@ Docker build . -t dockerpractice
 Docker Container - The virtual operating system. 
 
 docker run -p 3000:3000 dockerpractice
+
+
+//
+1. create a react project from scratch
+2. create a docker file for that project
+3. create a docker image
+4. run that image in a container
+    - test if your project is running via docker
+
+** share the docker image with another apprentice
+    - see if the other apprentice can run the project in a docker container
